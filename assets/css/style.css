@@ -1,0 +1,34 @@
+header {
+   height:40px;
+   width:100%;
+   display: flex;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+   background:#666666;
+   text-align: center;
+}
+
+.h1{
+	background: blue;
+	height: 40px;
+	width: 100px;
+}
+
+.flexmain {
+	display: flex; 
+}
+
+.flexindex {
+	display: flex; 
+}
+
+.flexvert {
+	display: flex;
+	flex-direction: column;
+}
