@@ -26,9 +26,23 @@ footer {
 
 .flexindex {
 	display: flex; 
+	flex-direction: column;
 }
 
 .flexvert {
 	display: flex;
 	flex-direction: column;
+}
+
+.images {
+	display: flex;
+}
+
+.flex {
+	display: flex;
+}
+.local_links {
+	display: flex;
+	right: 0px;
+	top: 0px;
 }
