@@ -14,16 +14,28 @@ footer {
    text-align: center;
 }
 
+.local_links
+
 .h1{
 	background: blue;
 	height: 40px;
 	width: 100px;
 }
-.flex-parent {
-	display: flex;
-}
+
 .local_links {
 	display: flex;
 	right: 0px;
 	top: 0px;
+}
+
+.flexparent {
+	display: flex;
+}
+
+.float {
+	float: left;
+}
+
+.images {
+	display: flex;
 }
