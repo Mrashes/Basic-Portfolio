@@ -19,26 +19,7 @@ footer {
 	height: 40px;
 	width: 100px;
 }
-
-.flexmain {
-	display: flex; 
-}
-
-.flexindex {
-	display: flex; 
-	flex-direction: column;
-}
-
-.flexvert {
-	display: flex;
-	flex-direction: column;
-}
-
-.images {
-	display: flex;
-}
-
-.flex {
+.flex-parent {
 	display: flex;
 }
 .local_links {
