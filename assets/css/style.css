@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/pow-star.png");
+}
+
 header {
    height:40px;
    width:100%;
@@ -15,8 +23,21 @@ footer {
    text-align: center;
 }
 
-.h1 {
-	background-color: blue;
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+h2 {
+	: aqua;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	background-color: maroon;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -29,6 +50,7 @@ footer {
 
 .flexparent {
 	display: flex;
+	justify-content: center;
 }
 
 .float {
@@ -37,4 +59,13 @@ footer {
 
 .images {
 	display: flex;
+}
+
+.connect {
+	height: 60px;
+}
+
+.about {
+	width: 700px;
+	margin-right: 40px;
 }
