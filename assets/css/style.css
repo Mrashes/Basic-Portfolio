@@ -2,6 +2,7 @@ header {
    height:40px;
    width:100%;
    display: flex;
+   background-color: red;
 }
 
 footer {
@@ -14,18 +15,16 @@ footer {
    text-align: center;
 }
 
-.local_links
-
-.h1{
-	background: blue;
-	height: 40px;
-	width: 100px;
+.h1 {
+	background-color: blue;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .local_links {
-	display: flex;
+	position: fixed;
 	right: 0px;
 	top: 0px;
+	background-color: yellow;	
 }
 
 .flexparent {
