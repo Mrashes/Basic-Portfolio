@@ -137,6 +137,8 @@ p {
 	line-height: 2;
 }
 
+/*portfolio page*/
+
 .twobytwo {
 	display: flex;
 	justify-content: center;
@@ -157,4 +159,50 @@ p {
 
 .loner {
 	margin-left: 30px;
+}
+
+
+/*contacts page*/
+
+.contact {
+	width: 650px;
+	margin-right: 40px;
+	background-color: white;
+	border: solid 2px #e3e3e3;
+	padding-bottom: 30px;
+}
+
+.inputs {
+	margin-left: 30px;
+}
+
+.inputs p {
+	margin-bottom: 12px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.inputs input {
+	margin-bottom: 22px;
+	width: 586px;
+	border: solid 1px #e3e3e3;
+}
+
+.inputs button {
+	height: 45px;
+	width: 125px;
+	background-color: #4aaaa5;
+	border: none;
+}
+
+.inputs a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.message input {
+	height: 200px;
+
 }
