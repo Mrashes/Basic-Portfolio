@@ -43,9 +43,10 @@ h2 {
 }
 
 h3 {
-	color: #4aaaa5
-	background-color: maroon;
+	color: #4aaaa5;
+	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: black solid 1px;
 }
 
 p {
@@ -53,16 +54,12 @@ p {
 }
 
 .local_links {
-	margin-right: 280px;
+	margin-left: 690px;
 	margin-top: 10px;
-	right: 0px;
-	background-color: yellow;	
 }
 
 .local_links a {
-	border-right: 3px black;
 	margin-right: 5px;
-	justify-content: ;
 }
 
 .flexparent {
@@ -90,6 +87,8 @@ p {
 	width: 270px;
 	height: 200px;
 	background-color: white;
+	border: solid 1px;
+	border-color: #efefef;
 }
 
 .about {
