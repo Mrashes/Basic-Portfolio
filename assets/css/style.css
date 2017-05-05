@@ -7,10 +7,14 @@ body {
 }
 
 header {
+   position:fixed;
+   right: 0px;
+   top:0px;
    height:40px;
    width:100%;
    display: flex;
-   background-color: red;
+   background-color: #ffffff;
+
 }
 
 footer {
@@ -27,45 +31,70 @@ h1 {
 	background-color: #4aaaa5;
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin-left: 40px;
+	margin-left: 280px;
 	margin-top: 10px;
+	font-weight: 700;
 }
 
 h2 {
-	: aqua;
+	color: #4aaaa5;
+	background-color: aqua;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h3 {
+	color: #4aaaa5
 	background-color: maroon;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .local_links {
-	position: fixed;
+	margin-right: 280px;
+	margin-top: 10px;
 	right: 0px;
-	top: 0px;
 	background-color: yellow;	
+}
+
+.local_links a {
+	border-right: 3px black;
+	margin-right: 5px;
+	justify-content: ;
 }
 
 .flexparent {
 	display: flex;
 	justify-content: center;
+	margin-top: 75px;
+	
 }
 
 .float {
 	float: left;
+	margin-right: 30px;
 }
 
 .images {
 	display: flex;
+	justify-content: center;
+}
+
+.margin {
+	margin-right: 5px;
 }
 
 .connect {
-	height: 60px;
+	width: 270px;
+	height: 200px;
+	background-color: white;
 }
 
 .about {
-	width: 700px;
+	width: 650px;
 	margin-right: 40px;
+	background-color: white;
+	height: 600px;
 }
