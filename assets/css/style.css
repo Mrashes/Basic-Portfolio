@@ -41,7 +41,6 @@ h1 {
 
 h2 {
 	color: #4aaaa5;
-	background-color: aqua;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-left: 30px;
 	margin-bottom:30px;
@@ -58,6 +57,7 @@ h3 {
 	margin-top: 30px;
 	font-size: 20px;
 	font-weight: 600;
+	padding-bottom: 20px; 
 }
 
 p {
@@ -71,7 +71,12 @@ p {
 }
 
 .local_links a {
-	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid gray;
+}
+
+.local_links a:nth-last-of-type(1) {
+	border: none;
 }
 
 .flexparent {
@@ -111,7 +116,7 @@ p {
 	width: 650px;
 	margin-right: 40px;
 	background-color: white;
-	height: 650px;
+	height: 800px;
 
 }
 
