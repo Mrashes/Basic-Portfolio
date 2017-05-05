@@ -75,6 +75,9 @@ p {
 .local_links a {
 	padding-right: 5px;
 	border-right: 1px solid gray;
+	font-size: 14px;
+	text-decoration: none;
+	color: #9b9fa3;
 }
 
 .local_links a:nth-last-of-type(1) {
