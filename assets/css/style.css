@@ -9,7 +9,6 @@ body {
 }
 
 header {
-   position:fixed;
    right: 0px;
    top:0px;
    height:90px;
@@ -23,10 +22,11 @@ footer {
    position:fixed;
    left:0px;
    bottom:0px;
-   height:40px;
+   height:90px;
    width:100%;
    background:#666666;
    text-align: center;
+   color: #9b9fa3;
 }
 
 h1 {
@@ -91,7 +91,7 @@ p {
 .flexparent {
 	display: flex;
 	justify-content: center;
-	margin-top: 130px;
+	margin-top: 50px;
 	margin-bottom: 140px;
 	
 }
@@ -205,4 +205,26 @@ p {
 .message input {
 	height: 200px;
 
+}
+
+.words img {
+
+}
+
+.words {
+	position: relative;
+}
+
+.words p{
+	position: absolute;
+	margin-top: -80px;
+	text-align: center;
+	height: 60px;
+	width: 275px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	color: white;
+	padding-top: 20px;
+	border: 1px solid #429894;
 }
